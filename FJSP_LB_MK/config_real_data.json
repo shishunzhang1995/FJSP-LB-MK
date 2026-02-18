@@ -1,0 +1,51 @@
+{
+  "env_paras": {
+    "num_jobs": 20,
+    "num_machine": 10,
+    "batch_size": 20,
+    "ope_feat_dim" : 6,
+    "ma_feat_dim" : 3,
+    "show_mode": "draw",
+    "valid_batch_size": 100
+  },
+  "model_paras": {
+    "in_size_ma": 3,
+    "out_size_ma": 8,
+    "in_size_ope": 6,
+    "out_size_ope": 8,
+    "hidden_size_ope": 128,
+    "num_heads": [1, 1],
+    "dropout": 0.0,
+    "n_latent_actor": 64,
+    "n_latent_critic": 64,
+    "n_hidden_actor": 3,
+    "n_hidden_critic": 3,
+    "action_dim": 1
+  },
+  "train_paras": {
+    "lr": 0.0002,
+    "betas": [0.9, 0.999],
+    "gamma": 1.0, 
+    "K_epochs": 3,
+    "eps_clip": 0.2,
+    "A_coef": 1.0,
+    "vf_coef": 0.5,
+    "entropy_coef": 0.01,
+    "max_iterations": 1000,
+    "save_time_step": 10,
+    "update_time_step": 1,
+    "viz": true,
+    "viz_name": "main",
+    "mini_batch_size": 512,
+    "parallel_iter": 20
+  },
+  "test_paras": {
+    "num_ins": 100,
+    "rules": ["DRL"],
+    "sample": false,
+    "num_sample": 100,
+    "num_average": 1,
+    "public_ins": true,
+    "data_path": "1005"
+  }
+}
