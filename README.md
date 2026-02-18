@@ -34,6 +34,7 @@ FJSP-LB-MK/
 ├── configs/        # Experiment configurations
 ├── scripts/        # Reproduction scripts
 └── README.md
+```
 
 ## Dataset
 ### Synthetic Dataset
