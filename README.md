@@ -52,7 +52,8 @@ The synthetic data includes multiple scales to test scalability:
 
 - **40×10**
 
-Each scale includes dedicated training, validation, and test instances.
+Each scale includes dedicated validation, and test instances, while the training instances are **generated 
+on the fly** with the generation code during training.
 
 ### Real Production Dataset
 Collected from four distinct industrial steel plate production lines:
@@ -66,6 +67,14 @@ Collected from four distinct industrial steel plate production lines:
 - **Line D**
 
 Each contains training, validation, and test sets to verify the model's performance in real industrial environments.
+
+### Dataset download
+The dataset is hosted on Google Drive.
+
+Download link:
+
+https://drive.google.com/file/d/1CrDKrpZ264z7RkTz_Ispw7yXQgKWpeT5/view?usp=drive_link
+
 
 ## Training & Evaluation
 ### Training
