@@ -1,5 +1,5 @@
 # FJSP-LB-MK
-**Flexible Job Shop Scheduling with Limited Buffers and Material Kitting**
+**Flexible Job Shop Scheduling under Limited Buffer and Material Kitting constraints**
 
 Official implementation of the FJSP-LB-MK framework. This repository provides a Deep Reinforcement Learning (DRL) solution for Flexible Job Shop Scheduling Problems involving Limited constraints and Material-Kitting.
 
